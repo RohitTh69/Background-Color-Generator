@@ -4,6 +4,8 @@ body{
 	margin: 0;
 	background: linear-gradient(to right, red, orange) repeat-y;
 	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
 }
 
 h1{
