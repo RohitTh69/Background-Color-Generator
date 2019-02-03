@@ -1,0 +1,36 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	margin: 0;
+	background: linear-gradient(to right, red, orange) repeat-y;
+	background-size: cover;
+}
+
+h1{
+	color: #ffabcd;
+	padding: 2em;
+	text-align: center;
+	letter-spacing: 2em;
+}
+
+input{
+	outline: none;
+	border: 2px #fedcba solid;
+	background: #123456;
+	box-shadow: 2px 4px 3px black;
+	border-radius: 8px;
+}
+
+h3{
+	color: #fedcba;
+	padding: 2em;
+	width: 100%;
+	text-align: center;
+	letter-spacing: 2em;
+}
+
+h4{
+	padding: 2em;
+	width: 100%;
+	text-align: center;
+}
