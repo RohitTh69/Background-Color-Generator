@@ -3,11 +3,6 @@ body{
 	text-align: center;
 	margin: 0 auto;
 	background: linear-gradient(to right, red, orange);
-	background-repeat: repeat;
-	background-position: center center;
-	background-attachment: fixed;
-	max-width: 100%;
-	height: auto;
 }
 
 h1{
@@ -42,20 +37,42 @@ h4{
 	width: 100%;
 }
 
-@media screen and (max-width: 850px){
-	
+@media screen and (max-width: 1440px){
+
 	h1, input, h3, h4{
 		margin: auto;
 	}
-	
+
 	h1, h3{
 		letter-spacing: 0.5em;
 	}
+
 }
 
 @media screen and (max-width: 400px){
 	
 	h1{
 		font-size: 1.17em;
+	}
+}
+
+@media screen and (max-width: 550px){
+	
+	h1{
+		font-size: 1.25em;
+	}
+}
+
+@media screen and (max-width: 320px){
+	
+	h1{
+		font-size: 1em;
+	}
+}
+
+@media screen and (max-width: 300px){
+	
+	h3{
+		font-size: 1em;
 	}
 }
